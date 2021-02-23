@@ -203,6 +203,9 @@ There are several known issues that you may encounter after upgrading:
 - You may see a "Failure to load model" warning dialog. This message is shown erroneously and can be ignored. 
 - Some workspace names are different than before upgrade. In that case, the workspace name has either reverted to a previous name for the workspace or the workspace name become blank. To resolve this issue, rename the workspace to the desired name.
 - In a workspace that had an installed content pack, you may see additional dashboards that weren't visible before the upgrade. In this case, a content pack may not have been updated recently. You can safely remove these dashboards.
+- If the admin for a workspace has not accessed Power BI recently (in the last 14 days), the upgrade may fail. Please have the workspace admin access Power BI or change to a different admin before attempting to upgrade.
+- If there is no group owner assigned to the group in AAD/O365 the associated workspace may not be upgraded.
+
 
 ## Next steps
 
