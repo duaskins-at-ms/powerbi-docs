@@ -56,6 +56,19 @@ Your Fabric admin (previously Power BI admin) must enable subscriptions in your 
 
 Whether you're subscribing to a dashboard, report page, or to a full report, the process is similar. A single button allows you to subscribe to the Power BI service dashboards and reports. Subscribing to a report offers you a few more field options, so this example uses a report.
 
+> [!NOTE]
+> **Subscriptions in org apps (preview)**
+>
+> You can create email subscriptions for Power BI reports while viewing those reports within org apps (preview). Subscriptions created from org apps behave similarly to subscriptions created directly on reports, but there are some differences.
+>
+> - Subscriptions are tied to the underlying report, not the org app itself.
+> - Managing or editing an existing subscription opens the report outside of the org app experience.
+> - Subscription emails link to the report directly, not to the report within the org app.
+> - Personalized report state, such as applied filters or **Include my changes**, isn't fully supported when creating subscriptions from org apps.
+> - Some subscription management actions must be completed from the report or the subscriptions management experience.
+>
+> For more information, see ../explore-reports/org-app-items.md.
+
 :::image type="content" source="./media/end-user-subscribe/power-bi-subscribe-button.png" alt-text="Screenshot showing the Subscribe to report icon on the top menu bar.":::
 
 Subscribing to a *paginated* report is slightly different, as outlined in [Subscribe to paginated reports](#subscribe-to-paginated-reports).
@@ -155,6 +168,9 @@ You can create a Microsoft 365 group in different ways. For example, you can cre
 ## Save changes to a subscribed report
 
 ### Include my changes
+
+> [!NOTE]
+> When creating subscriptions from reports in org apps (preview), the **Include my changes** option isn't fully supported.
 
 When you subscribe to a report created by someone else, you can make changes to that report. At that point, you can create a new subscription that captures those changes or you can save your changes with the existing subscription.
 
@@ -394,6 +410,7 @@ For help with troubleshooting for the subscriptions feature, see [Troubleshoot P
 
 - For [Power BI apps](../explore-reports/end-user-apps.md) you install, you can only create subscriptions for others if you're the owner of the app.
 - Subscriptions created within apps can be viewed and managed from the associated workspace by users with the admin role in that workspace. The workspace admin will have to install the app to view the subscriptions.
+- For org apps (preview), subscriptions can be created from reports in the app, but must be managed from the underlying report or subscriptions management experience.
 
 ### Unsupported features
 
