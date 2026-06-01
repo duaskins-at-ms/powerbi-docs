@@ -8,7 +8,7 @@ featuredvideoid:
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 04/07/2026
+ms.date: 06/01/2026
 LocalizationGroup: Common tasks
 ms.custom:
   - retail analysis sample
